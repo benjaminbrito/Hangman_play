@@ -13,9 +13,7 @@ import com.mycompany.hangman_play.controladores.Controlador;
 public class Hangman_play {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        
         Controlador controlador = new Controlador();
-        controlador.controlador();
+        controlador.iniciador();
     }
 }
