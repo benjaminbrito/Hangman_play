@@ -4,6 +4,8 @@
 
 package com.mycompany.hangman_play;
 
+import com.mycompany.hangman_play.controladores.Controlador;
+
 /**
  *
  * @author Benjamin
@@ -12,7 +14,8 @@ public class Hangman_play {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        System.out.println(" ____________\n|            |\n|            |\n|\n|\n|\n|\n|              ");
         
+        Controlador controlador = new Controlador();
+        controlador.controlador();
     }
 }
